@@ -1,1 +1,23 @@
-
+{
+  "name": "tiktok-esp32-control",
+  "version": "1.0.0",
+  "description": "Control ESP32 via TikTok Live gifts",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "tiktok-live-connector": "^1.0.3",
+    "bluetooth-serial": "^2.2.7",
+    "express": "^4.18.2",
+    "socket.io": "^4.7.2",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
